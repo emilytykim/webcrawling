@@ -6,11 +6,11 @@ RESULTS_DIR = "results"
 PROGRESS_FILE = "crawling_progress.json"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-# ✅ 날짜 필터링: 원하는 날짜(들)만 저장
+# 저장할 날짜 목록 및 조기 종료 기준
 TARGET_DATES = ["2025-06-11", "2025-06-12"]
-MIN_DATE = min(TARGET_DATES)  # 중단 판단 기준
+MIN_DATE = min(TARGET_DATES)  # "2025-06-11"
 
-# ✅ 명령줄 인자 확인
+# 명령줄 인자 확인
 if len(sys.argv) != 2:
     print("❗ 사용법: python main.py splits/category_01.json")
     sys.exit(1)
@@ -27,7 +27,7 @@ else:
     progress = {}
 
 
-def save_progress(fid, pid):
+def save_progress(fid: str, pid: str):
     progress.setdefault(fid, [])
     if pid not in progress[fid]:
         progress[fid].append(pid)
@@ -39,12 +39,13 @@ def main():
     start_time = time.time()
     tasks = []
 
+    # category_map.json 에서 up/low/sub 조합 생성
     for up_id, up_info in CATEGORY_MAP.items():
         for low_id, low_info in up_info["subgroups"].items():
             short_cid = up_id + low_id
-            subgroups = low_info.get("subsubgroups")
-            if subgroups:
-                for sub_id, sub_name in subgroups.items():
+            subsubs = low_info.get("subsubgroups")
+            if subsubs:
+                for sub_id, sub_name in subsubs.items():
                     full_id = up_id + low_id + sub_id
                     tasks.append(
                         {
@@ -76,35 +77,38 @@ def main():
         print(f"📂 {t['up_name']} > {t['low_name']} > {t['sub_name']} ({fid})")
 
         seen_pids = set(progress.get(fid, []))
-        is_new_file = not os.path.exists(file_path)
+        is_new = not os.path.exists(file_path)
 
         with open(file_path, "a", newline="", encoding="utf-8-sig") as f:
             writer = None
 
             for item in fetch_items_stream(sid):
+                # ➊ 카테고리·중복 체크
                 if item.get("category_id") != fid or item.get("pid") in seen_pids:
                     continue
 
                 row = parse_item(item)
-                item_date = row["날짜"]
+                item_date = row["날짜"].replace(".", "-")  # "2025.06.12" → "2025-06-12"
 
-                # ✅ 날짜가 TARGET_DATES보다 이전이면 중단
+                # ➋ 조기 종료: 기준일 이전이면 멈춤
                 if item_date < MIN_DATE:
-                    print(f"🛑 {item_date} < {MIN_DATE}, 더 이상 크롤링하지 않음")
+                    print(f"🛑 {item_date} < {MIN_DATE} → 크롤링 중단")
                     break
 
+                # ➌ 날짜 필터링: 원하는 날짜만 저장
                 if item_date not in TARGET_DATES:
                     continue
 
+                # ➍ 카테고리 컬럼 추가
                 row["대분류"] = t["up_name"]
                 row["중분류"] = t["low_name"]
                 row["소분류"] = t["sub_name"]
 
+                # ➎ CSV 헤더 & 쓰기
                 if writer is None:
                     writer = csv.DictWriter(f, fieldnames=row.keys())
-                    if is_new_file:
+                    if is_new:
                         writer.writeheader()
-
                 writer.writerow(row)
                 save_progress(fid, item.get("pid"))
 

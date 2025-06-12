@@ -1,11 +1,13 @@
 import requests
 from datetime import datetime, timedelta
 
-
 STATUS_MAP = {"0": "판매중", "1": "판매완료"}
 
 
-def fetch_items_stream(short_cid):
+def fetch_items_stream(short_cid: str):
+    """
+    6자리 f_category_id로 API를 반복 호출해 모든 아이템을 yield
+    """
     url = "https://api.bunjang.co.kr/api/1/find_v2.json"
     headers = {
         "User-Agent": "Mozilla/5.0",
@@ -13,10 +15,6 @@ def fetch_items_stream(short_cid):
         "Referer": "https://m.bunjang.co.kr/",
         "Accept": "application/json, text/plain, */*",
     }
-
-    # ✅ 기준 시각: 24시간 이전 UTC 기준 timestamp
-    cutoff_dt = datetime.now() - timedelta(days=1)
-    cutoff_utc_ts = int((cutoff_dt - timedelta(hours=9)).timestamp())
 
     page = 0
     while True:
@@ -36,32 +34,29 @@ def fetch_items_stream(short_cid):
             items = resp.json().get("list", [])
             if not items:
                 break
-
             for item in items:
-                update_time = item.get("update_time", 0)
-                if update_time < cutoff_utc_ts:
-                    print("🛑 24시간 이전 데이터 도달 → 크롤링 중단")
-                    return
                 yield item
-
             page += 1
         except Exception as e:
             print(f"❌ Error fetching page {page}: {e}")
             break
 
 
-def parse_item(item):
+def parse_item(item: dict) -> dict:
+    """
+    API로 받은 item → CSV 한 행용 dict 변환 (KST 기준 날짜·시간, 24h 표시 포함)
+    """
+    # UTC → KST 변환
     utc_dt = datetime.utcfromtimestamp(item.get("update_time", 0))
     kst_dt = utc_dt + timedelta(hours=9)
     now = datetime.now()
 
-    # 날짜 (예: 2025.06.12)
+    # 날짜 (예: "2025.06.12")
     date_str = kst_dt.strftime("%Y.%m.%d")
 
-    # 시간차 계산
+    # 경과 시간 계산
     delta = now - kst_dt
     seconds = int(delta.total_seconds())
-
     if seconds < 60:
         time_diff = "방금 전"
     elif seconds < 3600:
@@ -69,15 +64,15 @@ def parse_item(item):
     elif seconds < 86400:
         time_diff = f"{seconds // 3600}시간 전"
     else:
-        time_diff = f"{seconds // 3600}시간 전"  # 24시간 이상도 기록 가능
+        time_diff = f"{seconds // 3600}시간 전"
 
-    # 24시간 이내 여부
+    # 24시간 이내 표시
     within_24h = "✅" if seconds < 86400 else ""
 
     return {
         "상품명": item.get("name", ""),
         "가격": item.get("price", ""),
-        "판매여부": "판매중" if item.get("status") == "0" else "판매완료",
+        "판매여부": STATUS_MAP.get(str(item.get("status")), "Unknown"),
         "날짜": date_str,
         "시간": time_diff,
         "24시간이내": within_24h,
