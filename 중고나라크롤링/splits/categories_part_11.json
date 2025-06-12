@@ -1,0 +1,57 @@
+[
+    {
+        "group": "카메라",
+        "board_name": "카메라_렌즈/필터",
+        "menu_id": 397
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_미러리스",
+        "menu_id": 757
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_DSLR",
+        "menu_id": 335
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_필름/중형카메라",
+        "menu_id": 396
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_일반디카/하이엔드",
+        "menu_id": 395
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_메모리/배터리/가방",
+        "menu_id": 400
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_삼각대/조명",
+        "menu_id": 398
+      },
+      {
+        "group": "카메라",
+        "board_name": "카메라_기타 카메라용품",
+        "menu_id": 401
+      },
+      {
+        "group": "미술/음악",
+        "board_name": "미술/음악_악기",
+        "menu_id": 751
+      },
+      {
+        "group": "미술/음악",
+        "board_name": "미술/음악_미술용품도구",
+        "menu_id": 457
+      },
+      {
+        "group": "미술/음악",
+        "board_name": "미술/음악_기타",
+        "menu_id": 2520
+      }
+]

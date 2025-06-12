@@ -1,0 +1,67 @@
+[
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_건프라/프라모델",
+    "menu_id": 447
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_피규어/핫토이/인형",
+    "menu_id": 2500
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_레고/브릭/블럭",
+    "menu_id": 1512
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_굿즈/보드게임",
+    "menu_id": 1155
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_드론/RC/무선조종",
+    "menu_id": 1513
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_기타",
+    "menu_id": 1511
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_욕실용품",
+    "menu_id": 450
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_주방용품",
+    "menu_id": 2501
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_DIY/리폼용품",
+    "menu_id": 445
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_문구/사무용품",
+    "menu_id": 444
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_기타",
+    "menu_id": 443
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_LP/CD/DVD",
+    "menu_id": 414
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_서양예술작품",
+    "menu_id": 342
+  }
+]

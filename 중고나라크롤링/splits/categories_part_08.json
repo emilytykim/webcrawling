@@ -1,0 +1,41 @@
+[ {
+    "group": "산업용품",
+    "board_name": "산업용품_산업용품/자재",
+    "menu_id": 485
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_농기계/농업용공구",
+    "menu_id": 889
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_드릴/전동공구",
+    "menu_id": 346
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_공구/공구함",
+    "menu_id": 486
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_공작기계/용접/가스",
+    "menu_id": 487
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_측정/계측/레벨",
+    "menu_id": 488
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_에어/유압공구",
+    "menu_id": 489
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_기타",
+    "menu_id": 2521
+  }
+]

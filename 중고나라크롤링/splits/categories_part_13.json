@@ -1,0 +1,27 @@
+[
+    {
+        "group": "중고차",
+        "board_name": "중고차_국산차(개인인증)",
+        "menu_id": 2177
+      },
+      {
+        "group": "중고차",
+        "board_name": "중고차_현대_기아",
+        "menu_id": 1322
+      },
+      {
+        "group": "중고차",
+        "board_name": "중고차_수입차(개인인증)",
+        "menu_id": 2181
+      },
+      {
+        "group": "중고차",
+        "board_name": "중고차_쉐보레_르노_쌍용",
+        "menu_id": 1326
+      },
+      {
+        "group": "중고차",
+        "board_name": "중고차_벤츠_BMW_아우디",
+        "menu_id": 1327
+      }
+]

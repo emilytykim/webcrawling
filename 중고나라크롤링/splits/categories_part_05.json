@@ -1,0 +1,102 @@
+[
+  {
+    "group": "명품",
+    "board_name": "명품_유아/아동",
+    "menu_id": 791
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_남성신발",
+    "menu_id": 1010
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_여성신발",
+    "menu_id": 1009
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_악세서리",
+    "menu_id": 785
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_기타",
+    "menu_id": 787
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_휠/타이어/캐리어",
+    "menu_id": 474
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_자동차 영상기기",
+    "menu_id": 475
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_자동차 음향기기",
+    "menu_id": 476
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_기타/차량부품",
+    "menu_id": 473
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_여성 기초화장품",
+    "menu_id": 332
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_여성 색조화장품",
+    "menu_id": 371
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_향수",
+    "menu_id": 372
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_헤어/스킨 케어",
+    "menu_id": 373
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_남성화장품",
+    "menu_id": 370
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_기타 미용용품",
+    "menu_id": 375
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_의류",
+    "menu_id": 356
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_신발",
+    "menu_id": 331
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_가방잡화",
+    "menu_id": 364
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_기타",
+    "menu_id": 360
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_의류",
+    "menu_id": 358
+  }
+]

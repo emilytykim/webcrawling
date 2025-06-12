@@ -1,0 +1,68 @@
+[
+    {
+        "group": "골프",
+        "board_name": "골프_드라이버/우드/유틸리티",
+        "menu_id": 1432
+      },
+      {
+        "group": "골프",
+        "board_name": "골프_아이언/웨지/퍼터",
+        "menu_id": 1434
+      },
+      {
+        "group": "골프",
+        "board_name": "골프_골프백",
+        "menu_id": 2349
+      },
+      {
+        "group": "골프",
+        "board_name": "골프_골프채 풀세트",
+        "menu_id": 1436
+      },
+      {
+        "group": "골프",
+        "board_name": "골프_기타 골프 용품",
+        "menu_id": 1437
+      },
+      {
+        "group": "캠핑",
+        "board_name": "캠핑_텐트/타프/매트",
+        "menu_id": 530
+      },
+      {
+        "group": "캠핑",
+        "board_name": "캠핑_캠핑 가구",
+        "menu_id": 2103
+      },
+      {
+        "group": "캠핑",
+        "board_name": "캠핑_기타 캠핑카",
+        "menu_id": 2104
+      },
+      {
+        "group": "캠핑",
+        "board_name": "캠핑_기타 캠핑용품",
+        "menu_id": 2105
+      },
+      {
+        "group": "귀금속/악세서리",
+        "board_name": "악세서리_여성 악세서리",
+        "menu_id": 367
+      },
+      {
+        "group": "귀금속/악세서리",
+        "board_name": "악세서리_남성 악세서리",
+        "menu_id": 1096
+      },
+      {
+        "group": "귀금속/악세서리",
+        "board_name": "악세서리_순금/골드/실버",
+        "menu_id": 1294
+      },
+      {
+        "group": "귀금속/악세서리",
+        "board_name": "악세서리_기타 악세서리",
+        "menu_id": 1295
+      }
+
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_신발",
+    "menu_id": 363
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_가방잡화",
+    "menu_id": 1093
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_기타",
+    "menu_id": 1097
+  }
+]

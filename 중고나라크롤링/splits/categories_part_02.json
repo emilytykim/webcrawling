@@ -1,0 +1,97 @@
+[
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_현대예술작품",
+    "menu_id": 2503
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_골동품/기념주화",
+    "menu_id": 2504
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_기타",
+    "menu_id": 455
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_사료/간식",
+    "menu_id": 2275
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_외출/이동 용품",
+    "menu_id": 2505
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_생활/놀이 용품",
+    "menu_id": 2506
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_미용/케어 용품",
+    "menu_id": 2507
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_건강/훈련 용품",
+    "menu_id": 2508
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_기타",
+    "menu_id": 446
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_이지&아디다스",
+    "menu_id": 2172
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_조던&나이키",
+    "menu_id": 2171
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_기타",
+    "menu_id": 2336
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_남자 아이돌",
+    "menu_id": 1523
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_여자 아이돌",
+    "menu_id": 1457
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_기타",
+    "menu_id": 1456
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_음료",
+    "menu_id": 2509
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_비음료",
+    "menu_id": 2510
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_기타",
+    "menu_id": 2418
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_휴대폰",
+    "menu_id": 339
+  }
+]

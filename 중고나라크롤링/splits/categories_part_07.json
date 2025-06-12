@@ -1,0 +1,47 @@
+[
+    {
+        "group": "오토바이",
+        "board_name": "오토바이_오토바이 125CC이하",
+        "menu_id": 478
+      },
+      {
+        "group": "오토바이",
+        "board_name": "오토바이_오토바이 125CC초과",
+        "menu_id": 479
+      },
+      {
+        "group": "오토바이",
+        "board_name": "오토바이_오토바이 용품",
+        "menu_id": 477
+      },
+      {
+        "group": "오토바이",
+        "board_name": "오토바이_기타 오토바이 용품",
+        "menu_id": 2518
+      },
+      {
+        "group": "게임용품",
+        "board_name": "게임용품_닌텐도/WII",
+        "menu_id": 338
+      },
+      {
+        "group": "게임용품",
+        "board_name": "게임용품_플레이스테이션",
+        "menu_id": 419
+      },
+      {
+        "group": "게임용품",
+        "board_name": "게임용품_게임 소프트웨어",
+        "menu_id": 421
+      },
+      {
+        "group": "게임용품",
+        "board_name": "게임용품_XBOX",
+        "menu_id": 420
+      },
+      {
+        "group": "게임용품",
+        "board_name": "게임용품_기타 게임용품",
+        "menu_id": 422
+      }
+]    

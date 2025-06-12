@@ -1,0 +1,837 @@
+[
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_건프라/프라모델",
+    "menu_id": 447
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_피규어/핫토이/인형",
+    "menu_id": 2500
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_레고/브릭/블럭",
+    "menu_id": 1512
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_굿즈/보드게임",
+    "menu_id": 1155
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_드론/RC/무선조종",
+    "menu_id": 1513
+  },
+  {
+    "group": "키덜트",
+    "board_name": "키덜트_기타",
+    "menu_id": 1511
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_욕실용품",
+    "menu_id": 450
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_주방용품",
+    "menu_id": 2501
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_DIY/리폼용품",
+    "menu_id": 445
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_문구/사무용품",
+    "menu_id": 444
+  },
+  {
+    "group": "홈/생활용품",
+    "board_name": "홈/생활용품_기타",
+    "menu_id": 443
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_LP/CD/DVD",
+    "menu_id": 414
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_서양예술작품",
+    "menu_id": 342
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_신발",
+    "menu_id": 363
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_가방잡화",
+    "menu_id": 1093
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_기타",
+    "menu_id": 1097
+  },
+  {
+    "group": "골프",
+    "board_name": "골프_드라이버/우드/유틸리티",
+    "menu_id": 1432
+  },
+  {
+    "group": "골프",
+    "board_name": "골프_아이언/웨지/퍼터",
+    "menu_id": 1434
+  },
+  {
+    "group": "골프",
+    "board_name": "골프_골프백",
+    "menu_id": 2349
+  },
+  {
+    "group": "골프",
+    "board_name": "골프_골프채 풀세트",
+    "menu_id": 1436
+  },
+  {
+    "group": "골프",
+    "board_name": "골프_기타 골프 용품",
+    "menu_id": 1437
+  },
+  {
+    "group": "캠핑",
+    "board_name": "캠핑_텐트/타프/매트",
+    "menu_id": 530
+  },
+  {
+    "group": "캠핑",
+    "board_name": "캠핑_캠핑 가구",
+    "menu_id": 2103
+  },
+  {
+    "group": "캠핑",
+    "board_name": "캠핑_기타 캠핑카",
+    "menu_id": 2104
+  },
+  {
+    "group": "캠핑",
+    "board_name": "캠핑_기타 캠핑용품",
+    "menu_id": 2105
+  },
+  {
+    "group": "귀금속/악세서리",
+    "board_name": "악세서리_여성 악세서리",
+    "menu_id": 367
+  },
+  {
+    "group": "귀금속/악세서리",
+    "board_name": "악세서리_남성 악세서리",
+    "menu_id": 1096
+  },
+  {
+    "group": "귀금속/악세서리",
+    "board_name": "악세서리_순금/골드/실버",
+    "menu_id": 1294
+  },
+  {
+    "group": "귀금속/악세서리",
+    "board_name": "악세서리_기타 악세서리",
+    "menu_id": 1295
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_렌즈/필터",
+    "menu_id": 397
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_미러리스",
+    "menu_id": 757
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_DSLR",
+    "menu_id": 335
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_필름/중형카메라",
+    "menu_id": 396
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_일반디카/하이엔드",
+    "menu_id": 395
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_메모리/배터리/가방",
+    "menu_id": 400
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_삼각대/조명",
+    "menu_id": 398
+  },
+  {
+    "group": "카메라",
+    "board_name": "카메라_기타 카메라용품",
+    "menu_id": 401
+  },
+  {
+    "group": "미술/음악",
+    "board_name": "미술/음악_악기",
+    "menu_id": 751
+  },
+  {
+    "group": "미술/음악",
+    "board_name": "미술/음악_미술용품도구",
+    "menu_id": 457
+  },
+  {
+    "group": "미술/음악",
+    "board_name": "미술/음악_기타",
+    "menu_id": 2520
+  },
+  {
+    "group": "오토바이",
+    "board_name": "오토바이_오토바이 125CC이하",
+    "menu_id": 478
+  },
+  {
+    "group": "오토바이",
+    "board_name": "오토바이_오토바이 125CC초과",
+    "menu_id": 479
+  },
+  {
+    "group": "오토바이",
+    "board_name": "오토바이_오토바이 용품",
+    "menu_id": 477
+  },
+  {
+    "group": "오토바이",
+    "board_name": "오토바이_기타 오토바이 용품",
+    "menu_id": 2518
+  },
+  {
+    "group": "게임용품",
+    "board_name": "게임용품_닌텐도/WII",
+    "menu_id": 338
+  },
+  {
+    "group": "게임용품",
+    "board_name": "게임용품_플레이스테이션",
+    "menu_id": 419
+  },
+  {
+    "group": "게임용품",
+    "board_name": "게임용품_게임 소프트웨어",
+    "menu_id": 421
+  },
+  {
+    "group": "게임용품",
+    "board_name": "게임용품_XBOX",
+    "menu_id": 420
+  },
+  {
+    "group": "게임용품",
+    "board_name": "게임용품_기타 게임용품",
+    "menu_id": 422
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_MTB/사이클",
+    "menu_id": 432
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_전기/특수자전거",
+    "menu_id": 1474
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_미니벨로",
+    "menu_id": 433
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_휠/킥보드",
+    "menu_id": 1990
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_픽시/하이브리드",
+    "menu_id": 1473
+  },
+  {
+    "group": "자전거",
+    "board_name": "자전거_기타 자전거 용품",
+    "menu_id": 1475
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_생활가전",
+    "menu_id": 452
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_계절가전",
+    "menu_id": 2054
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_소형음향기기",
+    "menu_id": 412
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_미용가전/기기",
+    "menu_id": 2055
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_기타",
+    "menu_id": 2514
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_유아/아동 도서",
+    "menu_id": 461
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_학습/교재",
+    "menu_id": 343
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_만화/그래픽노블",
+    "menu_id": 460
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_비문학/인문학",
+    "menu_id": 459
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_소설/문학",
+    "menu_id": 464
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_자기계발/실용서",
+    "menu_id": 2515
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_기타",
+    "menu_id": 2516
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_등산용품",
+    "menu_id": 436
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_여행/숙박 티켓",
+    "menu_id": 754
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_여행가방/용품",
+    "menu_id": 1477
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_기타",
+    "menu_id": 2517
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_여성의류",
+    "menu_id": 1007
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_남성의류",
+    "menu_id": 1008
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_가방",
+    "menu_id": 782
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_시계",
+    "menu_id": 1011
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_산업용품/자재",
+    "menu_id": 485
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_농기계/농업용공구",
+    "menu_id": 889
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_드릴/전동공구",
+    "menu_id": 346
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_공구/공구함",
+    "menu_id": 486
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_공작기계/용접/가스",
+    "menu_id": 487
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_측정/계측/레벨",
+    "menu_id": 488
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_에어/유압공구",
+    "menu_id": 489
+  },
+  {
+    "group": "산업용품",
+    "board_name": "산업용품_기타",
+    "menu_id": 2521
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_헬스/수영 용품",
+    "menu_id": 440
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_축구용품/의류",
+    "menu_id": 340
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_야구용품/의류",
+    "menu_id": 430
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_요가/운동용품",
+    "menu_id": 374
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_낚시용품",
+    "menu_id": 439
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_스키/보드/의류",
+    "menu_id": 435
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_농구용품/의류",
+    "menu_id": 431
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_인라인/스케이트",
+    "menu_id": 434
+  },
+  {
+    "group": "스포츠/레저",
+    "board_name": "스포츠/레저_기타 스포츠 용품",
+    "menu_id": 441
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_인테리어소품",
+    "menu_id": 468
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_서재/사무용가구",
+    "menu_id": 469
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_거실가구",
+    "menu_id": 470
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_주방가구",
+    "menu_id": 471
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_침실가구",
+    "menu_id": 344
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_이케아(IKEA)",
+    "menu_id": 1662
+  },
+  {
+    "group": "가구/인테리어",
+    "board_name": "가구/인테리어_기타 가구",
+    "menu_id": 2519
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_유아/아동",
+    "menu_id": 791
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_남성신발",
+    "menu_id": 1010
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_여성신발",
+    "menu_id": 1009
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_악세서리",
+    "menu_id": 785
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_기타",
+    "menu_id": 787
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_휠/타이어/캐리어",
+    "menu_id": 474
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_자동차 영상기기",
+    "menu_id": 475
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_자동차 음향기기",
+    "menu_id": 476
+  },
+  {
+    "group": "자동차 용품",
+    "board_name": "자동차 용품_기타/차량부품",
+    "menu_id": 473
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_여성 기초화장품",
+    "menu_id": 332
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_여성 색조화장품",
+    "menu_id": 371
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_향수",
+    "menu_id": 372
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_헤어/스킨 케어",
+    "menu_id": 373
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_남성화장품",
+    "menu_id": 370
+  },
+  {
+    "group": "미용",
+    "board_name": "미용_기타 미용용품",
+    "menu_id": 375
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_의류",
+    "menu_id": 356
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_신발",
+    "menu_id": 331
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_가방잡화",
+    "menu_id": 364
+  },
+  {
+    "group": "여성패션",
+    "board_name": "여성패션_기타",
+    "menu_id": 360
+  },
+  {
+    "group": "남성패션",
+    "board_name": "남성패션_의류",
+    "menu_id": 358
+  },
+  {
+    "group": "중고차",
+    "board_name": "중고차_국산차(개인인증)",
+    "menu_id": 2177
+  },
+  {
+    "group": "중고차",
+    "board_name": "중고차_현대_기아",
+    "menu_id": 1322
+  },
+  {
+    "group": "중고차",
+    "board_name": "중고차_수입차(개인인증)",
+    "menu_id": 2181
+  },
+  {
+    "group": "중고차",
+    "board_name": "중고차_쉐보레_르노_쌍용",
+    "menu_id": 1326
+  },
+  {
+    "group": "중고차",
+    "board_name": "중고차_벤츠_BMW_아우디",
+    "menu_id": 1327
+  },
+  {
+    "group": "출산유아동",
+    "board_name": "출산유아동_의류",
+    "menu_id": 378
+  },
+  {
+    "group": "출산유아동",
+    "board_name": "출산유아동_용품",
+    "menu_id": 376
+  },
+  {
+    "group": "출산유아동",
+    "board_name": "출산유아동_기타",
+    "menu_id": 2499
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_동양예술작품",
+    "menu_id": 2502
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_현대예술작품",
+    "menu_id": 2503
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_골동품/기념주화",
+    "menu_id": 2504
+  },
+  {
+    "group": "예술/수집",
+    "board_name": "예술/수집_기타",
+    "menu_id": 455
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_사료/간식",
+    "menu_id": 2275
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_외출/이동 용품",
+    "menu_id": 2505
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_생활/놀이 용품",
+    "menu_id": 2506
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_미용/케어 용품",
+    "menu_id": 2507
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_건강/훈련 용품",
+    "menu_id": 2508
+  },
+  {
+    "group": "반려동물",
+    "board_name": "반려동물_기타",
+    "menu_id": 446
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_이지&아디다스",
+    "menu_id": 2172
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_조던&나이키",
+    "menu_id": 2171
+  },
+  {
+    "group": "한정판",
+    "board_name": "한정판_기타",
+    "menu_id": 2336
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_남자 아이돌",
+    "menu_id": 1523
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_여자 아이돌",
+    "menu_id": 1457
+  },
+  {
+    "group": "스타굿즈",
+    "board_name": "스타굿즈_기타",
+    "menu_id": 1456
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_음료",
+    "menu_id": 2509
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_비음료",
+    "menu_id": 2510
+  },
+  {
+    "group": "가공식품",
+    "board_name": "가공식품_기타",
+    "menu_id": 2418
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_휴대폰",
+    "menu_id": 339
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_모바일 주변기기",
+    "menu_id": 427
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_태블릿",
+    "menu_id": 749
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_미사용/미개봉",
+    "menu_id": 2511
+  },
+  {
+    "group": "중고폰/모바일",
+    "board_name": "중고폰/모바일_기타",
+    "menu_id": 2512
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_데스크탑",
+    "menu_id": 382
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_노트북",
+    "menu_id": 334
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_PC 주요부품",
+    "menu_id": 385
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_PC 주변기기",
+    "menu_id": 387
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_모니터",
+    "menu_id": 383
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_PC 저장장치",
+    "menu_id": 386
+  },
+  {
+    "group": "컴퓨터",
+    "board_name": "컴퓨터_기타",
+    "menu_id": 2513
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_모바일상품권/쿠폰",
+    "menu_id": 1156
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_영화/연극/공연",
+    "menu_id": 1285
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_식음료상품권/쿠폰",
+    "menu_id": 1866
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_지류상품권/쿠폰",
+    "menu_id": 448
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_시즌권/리프트권",
+    "menu_id": 1537
+  },
+  {
+    "group": "상품권/티켓/쿠폰",
+    "board_name": "상품권/티켓/쿠폰_기타/스포츠티켓",
+    "menu_id": 1286
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_주방가전",
+    "menu_id": 451
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_음향가전",
+    "menu_id": 411
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_TV/영상가전",
+    "menu_id": 336
+  }
+]

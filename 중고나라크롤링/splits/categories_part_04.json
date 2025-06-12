@@ -1,0 +1,102 @@
+[
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_생활가전",
+    "menu_id": 452
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_계절가전",
+    "menu_id": 2054
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_소형음향기기",
+    "menu_id": 412
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_미용가전/기기",
+    "menu_id": 2055
+  },
+  {
+    "group": "디지털 / 가전",
+    "board_name": "디지털 / 가전_기타",
+    "menu_id": 2514
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_유아/아동 도서",
+    "menu_id": 461
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_학습/교재",
+    "menu_id": 343
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_만화/그래픽노블",
+    "menu_id": 460
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_비문학/인문학",
+    "menu_id": 459
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_소설/문학",
+    "menu_id": 464
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_자기계발/실용서",
+    "menu_id": 2515
+  },
+  {
+    "group": "도서",
+    "board_name": "도서_기타",
+    "menu_id": 2516
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_등산용품",
+    "menu_id": 436
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_여행/숙박 티켓",
+    "menu_id": 754
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_여행가방/용품",
+    "menu_id": 1477
+  },
+  {
+    "group": "여행/여가활동",
+    "board_name": "여행/여가활동_기타",
+    "menu_id": 2517
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_여성의류",
+    "menu_id": 1007
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_남성의류",
+    "menu_id": 1008
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_가방",
+    "menu_id": 782
+  },
+  {
+    "group": "명품",
+    "board_name": "명품_시계",
+    "menu_id": 1011
+  }
+]

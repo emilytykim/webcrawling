@@ -1,0 +1,32 @@
+[
+    {
+        "group": "자전거",
+        "board_name": "자전거_MTB/사이클",
+        "menu_id": 432
+      },
+      {
+        "group": "자전거",
+        "board_name": "자전거_전기/특수자전거",
+        "menu_id": 1474
+      },
+      {
+        "group": "자전거",
+        "board_name": "자전거_미니벨로",
+        "menu_id": 433
+      },
+      {
+        "group": "자전거",
+        "board_name": "자전거_휠/킥보드",
+        "menu_id": 1990
+      },
+      {
+        "group": "자전거",
+        "board_name": "자전거_픽시/하이브리드",
+        "menu_id": 1473
+      },
+      {
+        "group": "자전거",
+        "board_name": "자전거_기타 자전거 용품",
+        "menu_id": 1475
+      }
+]
